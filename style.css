@@ -1,0 +1,25 @@
+.navbar-nav .nav-link {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd; /* biru bootstrap */
+}
+
+.hero-section {
+    background: #f5f5f5; /* bisa diganti warna brand */
+    border-radius: 12px; /* biar kotaknya lembut */
+}
+
+.partner-logo {
+  max-height: 10px;   /* seragam tinggi */
+  object-fit: contain;
+  opacity: 0.6;       /* warna agak abu seperti contoh */
+  transition: opacity 0.3s ease;
+}
+
+.partner-logo:hover {
+  opacity: 1;         /* jadi lebih jelas saat hover */
+}
