@@ -1,267 +1,290 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demo AkarTuli</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/logo.png">
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
-    <div class="container">
-        <!-- Logo -->
-        <a class="navbar-brand fw-bold text-dark" href="#">
-        <img src="img/akartuli.png" alt="" height="50">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="/src/style.css" rel="stylesheet">
+  <title>Akar Tuli</title>
+</head>
+<body>
+  <nav class="relative bg-sky-800/50 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px ">
+  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="relative flex h-16 items-center justify-between">
+      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+        <!-- Mobile menu button-->
+        <button type="button" command="--toggle" commandfor="mobile-menu" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white focus:outline-2 focus:-outline-offset-1 focus:outline-indigo-500">
+          <span class="absolute -inset-0.5"></span>
+          <span class="sr-only">Open main menu</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 in-aria-expanded:hidden">
+            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 not-in-aria-expanded:hidden">
+            <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto align-items-lg-center">
-                <li class="nav-item">
-                <a class="nav-link px-3" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link px-3" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link px-3" href="#">Kelas</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link px-3" href="#">Informasi</a>
-                </li>
-                <li class="nav-item ms-lg-3">
-                <a class="btn btn-dark px-4" href="#">Log In</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    </nav>
-    <!-- Akhir Navbar -->
-    <!-- Thumbnail -->
-    <div class="container-fluid hero-section py-5">
-        <div class="container">
-            <div class="row align-items-center">
-             <!-- Kolom Teks -->
-                <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
-                    <h1 class="fw-bold">Demo AkarTuli</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero error, sit, odit impedit dicta nemo perferendis alias sapiente quia voluptatibus quaerat non, nobis eveniet. Dignissimos, ut, a sapiente deleniti distinctio facere voluptatibus quam similique temporibus quia deserunt eum nulla sequi autem enim laborum aspernatur dolore tempora? Obcaecati ad optio non.</p>
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
-                </div>
-                <!-- Kolom Gambar -->
-                <div class="col-md-6 text-center">
-                    <img src="img/akartuli.png" class="img-fluid rounded" alt="Thumbnail AkarTuli">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Akhir Thumbnail -->
-    <!-- Kerjasama -->
-    <div class="container text-center my-5">
-    <h5 class="fw-semibold text-uppercase text-secondary mb-5">
-        Trusted by companies of all sizes
-    </h5>
-    <!-- Logo Partner -->
-    <div class="row justify-content-center align-items-center g-4">
-        <div class="col-6 col-md-2">
-            <img src="img/logo omahgembira.jpg" class="img-fluid partner-logo" alt="Logo Omah Gembira">
-        </div>
-        <div class="col-6 col-md-2">
-            <img src="img/logo malang.png" class="img-fluid partner-logo" alt="Logo Malang">
-        </div>
-            <div class="col-6 col-md-2">
-            <img src="img/nutrihubmlng.png" class="img-fluid partner-logo" alt="Logo NutriHub Malang">
-        </div>
-            <div class="col-6 col-md-2">
-            <img src="img/logomcc.png" class="img-fluid partner-logo" alt="Logo MCC">
-        </div>
-    </div>
-    <!-- Garis bawah opsional -->
-    <hr class="mt-5" style="opacity: .2;">
-    </div>
-    <!-- Akhir Kerjasama -->
-    <!-- Container -->
-    <div class="container">
-      <div class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-md-5 text-center mb-4 mb-md-0">
-                <img src="img/cfd.png" class="img-fluid rounded-4 shadow" alt="Kegiatan CFD">
-            </div>
-            <div class="col-md-7 text-center text-md-start">
-                <h3 class="fw-bold text-primary mb-3 text-center text-md-start">About Me</h3>
-                <h5 class="fw-semibold mb-3">Passionate about creating meaningful experiences</h5>
-                <p class="text-muted">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore alias necessitatibus placeat modi error eius iusto sed facilis a optio, repellat, voluptates quasi illo, illum cum nam praesentium ea fugiat deserunt dolore odio sequi cupiditate atque? Deleniti, tenetur voluptas.
-                </p>
-                <p class="text-muted">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore odit quam quisquam corrupti. Perferendis ducimus nesciunt numquam beatae sunt quod possimus modi ipsum accusamus odit velit natus commodi excepturi dicta esse repudiandae impedit atque nisi, quisquam, qui totam sint temporibus.
-                </p>
-                <div class="mt-4">
-                    <span class="badge bg-light text-primary border me-2 mb-2">Belajar Bahasa Isyarat</span>
-                    <span class="badge bg-light text-primary border me-2 mb-2">Umum</span>
-                    <span class="badge bg-light text-primary border me-2 mb-2">Gratis</span>
-                </div>
-            </div>
-        </div>
-    </div>
-      <!-- Dunia Tuli -->
-        <div class="DuniaTuli py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <h2 class="fw-bold mb-3">Kegiatan Dunia Tuli</h2>
-                        <p class="text-muted mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, eligendi veniam distinctio quasi maiores architecto modi atque sequi necessitatibus odio sed placeat voluptates animi, molestias reiciendis facere, ipsa voluptatibus! Sequi suscipit illo officia sint iure doloremque fugit at, distinctio deserunt aspernatur minima rerum qui molestiae corporis similique velit quasi reprehenderit?
-                        </p>
-                        <div class="d-flex gap-4">
-                            <div>
-                                <h5 class="fw-bold mb-1">100%</h5>
-                                <p class="text-muted small mb-0">Satisfaction</p>
-                            </div>
-                            <div>
-                                <h5 class="fw-bold mb-1">24/7</h5>
-                                <p class="text-muted small mb-0">Support</p>
-                            </div>
-                        <div>
-                            <h5 class="fw-bold mb-1">10k+</h5>
-                            <p class="text-muted small mb-0">Participants</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Image -->
-                <div class="col-md-6 text-center">
-                    <img src="img/cfd.png" class="img-fluid rounded-4" alt="Kegiatan Dunia Tuli">
-                </div>
-            </div>
-        </div>
-    </div>
-      <!-- Kelas -->
-    <div class="kelas">
-        <h1 class="text-center mt-5">KELAS</h1>
-        <div class="container">
-            <div class="row mt-5 g-4 justify-content-center">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="card h-100">
-                <img src="img/kelasbahasaisyarat.jpg" class="card-img-top" alt="Kelas AkarTuli">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title.</p>
-                    <div class="mb-3">
-                        <span class="badge bg-success me-2">Gratis</span>
-                        <span class="badge bg-info text-dark">Kuota Terbatas</span>
-                    </div>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><i class="bi bi-calendar-event me-2 text-primary"></i>Senin, 25 Agustus 2025</li>
-                        <li class="mb-2"><i class="bi bi-clock me-2 text-primary"></i>19.00 - 21.00 WIB</li>
-                        <li><i class="bi bi-camera-video me-2 text-primary"></i>Offline</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary btn-lg rounded-3">Daftar Sekarang</a>
-                </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="card h-100">
-                        <img src="img/kelasbahasaisyarat.jpg" class="card-img-top" alt="Kelas AkarTuli">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title.</p>
-                    <div class="mb-3">
-                        <span class="badge bg-success me-2">Gratis</span>
-                        <span class="badge bg-info text-dark">Kuota Terbatas</span>
-                        </div>
-                        <ul class="list-unstyled">
-                            <li class="mb-2"><i class="bi bi-calendar-event me-2 text-primary"></i>Senin, 25 Agustus 2025</li>
-                            <li class="mb-2"><i class="bi bi-clock me-2 text-primary"></i>19.00 - 21.00 WIB</li>
-                            <li><i class="bi bi-camera-video me-2 text-primary"></i>Offline</li>
-                        </ul>
-                            <a href="#" class="btn btn-primary btn-lg rounded-3">Daftar Sekarang</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Akhir Kelas -->
-    <!-- Informasi -->
-    <div class="kegiatan">
-        <h1 class="text-center mt-5">INFORMASI</h1>
-            <div class="container">
-                <div class="row mt-5 g-4 justify-content-center">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card h-100 shadow-sm">
-                            <img src="img/event.png" class="card-img-top" alt="Event">
-                        <div class="card-body">
-                            <span class="text-success fw-bold">EVENT ONLINE</span>
-                            <h5 class="card-title mt-2">Webinar Launching Beasiswa DevHandal 2024 Batch#2</h5>
-                        <p class="text-muted mb-1">
-                            <i class="bi bi-calendar"></i> 16 Desember 2024
-                        </p>
-                        <p class="text-danger fw-bold mb-2">GRATIS</p>
-                        <button class="btn btn-secondary btn-sm w-100" disabled>Selesai</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm">
-                    <img src="img/ngobrolakrab.jpg" class="card-img-top" alt="Ngobrol Akrab">
-                    <div class="card-body">
-                        <span class="text-danger fw-bold">EVENT OFFLINE</span>
-                        <h5 class="card-title mt-2">Festival Merdeka Kolaborasi | Event Seru Rumah Merdeka</h5>
-                        <p class="text-muted mb-1">
-                        <i class="bi bi-calendar"></i> 16 November 2024
-                        </p>
-                        <p class="text-danger fw-bold mb-2">GRATIS</p>
-                        <button class="btn btn-secondary btn-sm w-100" disabled>Selesai</button>
-                    </div>
-                </div>
-            </div>
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 shadow-sm">
-                <img src="img/kelasbahasaisyarat.jpg" class="card-img-top" alt="Kelas Bahasa Isyarat">
-                    <div class="card-body">
-                        <span class="text-success fw-bold">EVENT ONLINE</span>
-                        <h5 class="card-title mt-2">EVENT CODING: HACKTHON Software Engineering</h5>
-                        <p class="text-muted mb-1">
-                        <i class="bi bi-calendar"></i> 12 November 2024
-                        </p>
-                        <p class="text-danger fw-bold mb-2">GRATIS</p>
-                        <button class="btn btn-secondary btn-sm w-100" disabled>Selesai</button>
-                    </div>
-                </div>
-            </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/kelasbahasaisyarat.jpg" class="card-img-top" alt="Kelas Bahasa Isyarat">
-                            <div class="card-body">
-                                <span class="text-success fw-bold">EVENT ONLINE</span>
-                                <h5 class="card-title mt-2">Unlock Your Coding Potential: Tips and Tricks for Mission</h5>
-                                <p class="text-muted mb-1">
-                                <i class="bi bi-calendar"></i> 9 Januari 2024
-                                </p>
-                                <p class="text-danger fw-bold mb-2">GRATIS</p>
-                                <button class="btn btn-secondary btn-sm w-100" disabled>Selesai</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Akhir Container -->
-
-    <!-- Footer -->
-    <footer>
-      <div class="text-center p-3 bg-light mt-3">
-        © 2024 Copyright:
-        <a class="text-dark" href="https://akartuli.com/">AkarTuli.com</a>
       </div>
-    </footer>
-    <!-- Akhir Footer -->
+      <div class="flex flex-1 items-center sm:items-stretch justify-center">
+        <div class="flex shrink-0 items-center">
+          <img src="img/akartuli.png" alt="Your Company" class="h-8 w-auto" />
+        </div>
+        <div class="hidden sm:ml-6 sm:block">
+          <div class="flex space-x-4">
+            <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
+            <a href="#" aria-current="page" class="rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white">Dashboard</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Team</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Projects</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Calendar</a>
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+        <button type="button" class="relative rounded-full p-1 text-gray-400 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500">
+          <span class="absolute -inset-1.5"></span>
+          <span class="sr-only">View notifications</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+            <path d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+  <el-disclosure id="mobile-menu" hidden class="block sm:hidden">
+    <div class="space-y-1 px-2 pt-2 pb-3">
+      <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
+      <a href="#" aria-current="page" class="block rounded-md bg-gray-950/50 px-3 py-2 text-base font-medium text-white">Dashboard</a>
+      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Team</a>
+      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Projects</a>
+      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Calendar</a>
+    </div>
+  </el-disclosure>
+</nav>
+  <!-- HERO SECTION -->
+  <div class="container py-20 px-5 mx-auto">
+    <div class="rounded-2xl">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold tracking-tight">Selamat datang di dunia tuli.</h1>
+          <p class="mt-3 text-base md:text-lg text-gray-600 text-justify">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Natus, molestiae. Dicta omnis ullam repudiandae voluptatem ipsum reiciendis consequatur
+            numquam impedit voluptates minima ratione voluptatum perspiciatis modi nostrum, incidunt rerum maxime natus
+            vero voluptatibus alias iste nulla. Alias nulla incidunt quam, veniam ipsum repellat consequatur dignissimos
+            dolorem sed necessitatibus sequi sunt?</p>
+          <a href="#"
+            class="inline-flex items-center mt-6 px-5 py-2.5 rounded-xl bg-sky-600 text-white font-medium hover:bg-gray-800 transition">Pelajari
+            lebih lanjut</a>
+        </div>
+        <div class="flex justify-center md:justify-end">
+          <img src="img/akartuli.png" alt="Ilustrasi Akar Tuli"
+            class="w-full max-w-sm h-auto object-contain select-none" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container py-20 mx-auto">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div class="flex justify-center">
+        <img src="img/cfd.png" alt="Ilustrasi Akar Tuli"
+          class="w-full max-w-xl h-auto object-contain select-none" />
+      </div>
+      <div class="flex flex-col justify-center">
+        <h1 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+          Apa itu Akar Tuli ?
+        </h1>
+        <p class="text-base md:text-lg text-gray-600 text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+          molestiae. Dicta omnis ullam repudiandae voluptatem ipsum reiciendis
+          consequatur numquam impedit voluptates minima ratione voluptatum
+          perspiciatis modi nostrum, incidunt rerum maxime natus vero voluptatibus
+          alias iste nulla. Alias nulla incidunt quam, veniam ipsum repellat
+          consequatur dignissimos dolorem sed necessitatibus sequi sunt?
+        </p>
+        <a href="#"
+          class="inline-flex w-fit items-center mt-6 px-5 py-2.5 rounded-xl bg-sky-600 text-white font-medium hover:bg-gray-800 transition">
+          Pelajari lebih lanjut
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container py-20 mx-auto">
+    <h1 class="text-3xl md:text-4xl font-bold text-center">KERJASAMA</h1>
+    <div class="grid grid-cols-5 gap-4 mt-20 mb-20 place-items-center ">
+      <div class="col">
+        <img src="img/logo omahgembira.jpg" alt="" height="100px" width="100px">
+      </div>
+      <div class="col">
+        <img src="img/nutrihubmlng.png" alt="" height="100px" width="100px">
+      </div>
+      <div class="col">
+        <img src="img/logomcc.png" alt="" height="100px" width="100px">
+      </div>
+      <div class="col">
+        <img src="img/logo malang.png" alt="" height="100px" width="100px">
+      </div>
+      <div class="col">
+        <img src="img/knnp.png" alt="" height="100px" width="100px">
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto mt-20 mb-20">
+    <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-center mb-10">
+    KELAS
+  </h1>
+  </div>
+  <div class="container flex justify-center gap-6 mt-20 mb-20 flex-wrap mx-auto">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img src="img/kelasbahasaisyarat.jpg" alt="" class="w-full">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">
+          Bahasa Isyarat Level 1
+        </div>
+        <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet quae dignissimos vero saepe tempora maxime similique delectus deleniti ea.
+        </p>
+        <div class="px-8 pt-4 pb-2">
+          <span class="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Gratis</span>
+          <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Batas Kuota</span>
+          <span class="inline-block bg-yellow-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Offline</span>
+        </div>
+        <div class="flex justify-center gap-4 mt-4">
+          <button class="bg-gray-600 hover:bg-sky-600 px-5 py-2 text-xl text-white rounded-lg transition duration-700 ease-in-out">Pendaftaran Sekarang!</button>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img src="img/kelasbahasaisyarat.jpg" alt="" class="w-full">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">
+          Bahasa Isyarat Level 1
+        </div>
+        <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet quae dignissimos vero saepe tempora maxime similique delectus deleniti ea.
+        </p>
+        <div class="px-8 pt-4 pb-2">
+          <span class="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Gratis</span>
+          <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Batas Kuota</span>
+          <span class="inline-block bg-yellow-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Online</span>
+        </div>
+        <div class="flex justify-center gap-4 mt-4">
+          <button class="bg-gray-600 hover:bg-sky-600 px-5 py-2 text-xl text-white rounded-lg transition duration-700 ease-in-out">Pendaftaran Sekarang!</button>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img src="img/kelasbahasaisyarat.jpg" alt="" class="w-full">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">
+          Bahasa Isyarat Level 1
+        </div>
+        <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet quae dignissimos vero saepe tempora maxime similique delectus deleniti ea.
+        </p>
+        <div class="px-8 pt-4 pb-2">
+          <span class="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Gratis</span>
+          <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Batas Kuota</span>
+          <span class="inline-block bg-yellow-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Offline</span>
+        </div>
+        <div class="flex justify-center gap-4 mt-4">
+          <button class="bg-gray-600 hover:bg-sky-600 px-5 py-2 text-xl text-white rounded-lg transition duration-700 ease-in-out">Pendaftaran Sekarang!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto mt-20 mb-20">
+    <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-center mb-10">
+      INFORMASI
+    </h1>
+  </div>
+  <div class="container flex justify-center gap-3 mt-20 mb-20 flex-wrap mx-auto">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img src="img/event.png" alt="" class="w-full">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">
+          Event
+        </div>
+        <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet quae dignissimos vero saepe tempora maxime similique delectus deleniti ea.
+        </p>
+        <div class="px-8 pt-4 pb-2">
+          <span class="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Gratis</span>
+          <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Batas Kuota</span>
+          <span class="inline-block bg-yellow-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Offline</span>
+        </div>
+        <div class="flex justify-center gap-4 mt-4">
+          <button class="bg-gray-600 hover:bg-sky-600 px-5 py-2 text-xl text-white rounded-lg transition duration-700 ease-in-out">Pendaftaran Sekarang!</button>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img src="img/kelasbahasaisyarat.jpg" alt="" class="w-full">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">
+          Bahasa Isyarat Level 1
+        </div>
+        <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet quae dignissimos vero saepe tempora maxime similique delectus deleniti ea.
+        </p>
+        <div class="px-8 pt-4 pb-2">
+          <span class="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Rp. 200,000</span>
+          <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Batas Kuota Umum</span>
+          <span class="inline-block bg-yellow-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Online</span>
+        </div>
+        <div class="flex justify-center gap-4 mt-4">
+          <button class="bg-gray-600 hover:bg-sky-600 px-5 py-2 text-xl text-white rounded-lg transition duration-700 ease-in-out">Pendaftaran Sekarang!</button>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img src="img/ngobrolakrab.jpg" alt="" class="w-full">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">
+          Bahasa Isyarat Level 1
+        </div>
+        <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet quae dignissimos vero saepe tempora maxime similique delectus deleniti ea.
+        </p>
+        <div class="px-8 pt-4 pb-2">
+          <span class="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Rp. 35,000</span>
+          <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Batas Kuota Umum</span>
+          <span class="inline-block bg-yellow-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Offline</span>
+        </div>
+        <div class="flex justify-center gap-4 mt-4">
+          <button class="bg-gray-600 hover:bg-sky-600 px-5 py-2 text-xl text-white rounded-lg transition duration-700 ease-in-out">Pendaftaran Sekarang!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- FOOTER -->
+<footer class="bg-white rounded-lg shadow m-4">
+  <div class="w-full max-w-screen-xl mx-auto p-4 md:flex md:items-center md:justify-between">
+    <span class="text-sm text-gray-500 sm:text-center">
+      © 2024 <a href="#" class="hover:underline">Your Company, Inc</a>. All rights reserved.
+    </span>
+    <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5">
+      <a href="#" class="text-gray-500 hover:text-gray-900">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="text-gray-500 hover:text-gray-900">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="text-gray-500 hover:text-gray-900">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <a href="#" class="text-gray-500 hover:text-gray-900">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="#" class="text-gray-500 hover:text-gray-900">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+</body>
+
 </html>
